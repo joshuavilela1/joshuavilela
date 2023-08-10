@@ -1,7 +1,17 @@
 import '../styles/globals.css';
-import { Inter } from 'next/font/google';
+import { Montserrat, Manrope } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+});
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  variable: '--font-manrope',
+  display: 'swap',
+});
 
 export const metadata = {
   title: 'Joshua Vilela',
@@ -15,7 +25,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${montserrat.variable} ${manrope.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
