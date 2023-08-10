@@ -9,8 +9,7 @@ self.__RSC_CSS_MANIFEST={
   "cssModules": {
     "/home/joshuavilela/portfolio_project/app/page": [
       "/home/joshuavilela/portfolio_project/styles/globals.css",
-      "/home/joshuavilela/portfolio_project/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-montserrat\",\"display\":\"swap\"}],\"variableName\":\"montserrat\"}",
-      "/home/joshuavilela/portfolio_project/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Manrope\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-manrope\",\"display\":\"swap\"}],\"variableName\":\"manrope\"}"
+      "/home/joshuavilela/portfolio_project/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-montserrat\",\"display\":\"swap\"}],\"variableName\":\"montserrat\"}"
     ]
   }
 }
