@@ -19,8 +19,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        mont: ['var(--font-montserrat)'],
-        man: ['var(--font-manrope)'],
+        mont: ['var(--font-mont)'],
+        man: ['var(--font-man)'],
       },
     },
   },

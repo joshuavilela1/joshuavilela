@@ -3,13 +3,13 @@ import { Montserrat, Manrope } from 'next/font/google';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-montserrat',
+  variable: '--font-mont',
   display: 'swap',
 });
 
 const manrope = Manrope({
   subsets: ['latin'],
-  variable: '--font-manrope',
+  variable: '--font-man',
   display: 'swap',
 });
 
@@ -24,10 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${montserrat.variable} ${manrope.variable}`}>
-        {children}
-      </body>
+    <html lang="en" className={`${montserrat.variable} ${manrope.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }

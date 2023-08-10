@@ -917,14 +917,14 @@ self.__RSC_MANIFEST={
         "static/css/app/layout.css"
       ]
     },
-    "/home/joshuavilela/portfolio_project/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Manrope\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-manrope\",\"display\":\"swap\"}],\"variableName\":\"manrope\"}#": {
+    "/home/joshuavilela/portfolio_project/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Manrope\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-man\",\"display\":\"swap\"}],\"variableName\":\"manrope\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/home/joshuavilela/portfolio_project/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-montserrat\",\"display\":\"swap\"}],\"variableName\":\"montserrat\"}#": {
+    "/home/joshuavilela/portfolio_project/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Montserrat\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-mont\",\"display\":\"swap\"}],\"variableName\":\"montserrat\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
