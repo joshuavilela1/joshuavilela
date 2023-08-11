@@ -29,7 +29,7 @@ export default function RootLayout({
       lang="en"
       className={`${montserrat.variable} ${manrope.variable} ${montserrat.className}`}
     >
-      <body>{children}</body>
+      <body className="bg-uv">{children}</body>
     </html>
   );
 }
