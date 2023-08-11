@@ -9,6 +9,10 @@ yarn-error.log*
 # Optional npm cache directory
 .npm
 
+# next.js
+/.next/
+/out/
+
 # Dependency directories
 /node_modules
 /jspm_packages
