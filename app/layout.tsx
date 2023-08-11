@@ -18,7 +18,6 @@ export const metadata = {
   description: 'Portfolio Page',
 };
 
-//! Figure out Font optimizations to allow tailwind css variables
 export default function RootLayout({
   children,
 }: {
@@ -29,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${montserrat.variable} ${manrope.variable} ${montserrat.className}`}
     >
-      <body className="bg-uv">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
